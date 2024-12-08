@@ -78,7 +78,7 @@ const quizresult = document.querySelector(".Qres");
 const strtbtncontainer = document.querySelector(".strt-btn-cont");
 const strtbtn = document.querySelector(".strt-btn-cont .strt-btn");
 
-let QuestionNumber=0;
+let QuestionNumber=-1;
 let score =0;
 const maxquestions=11;
 let timerInterval;
